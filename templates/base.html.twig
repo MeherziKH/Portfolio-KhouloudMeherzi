@@ -1,12 +1,84 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Khouloud Meherzi -- {% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="{{asset('Front/images/favicon.png')}}" />
+    <link href="https://fonts.googleapis.com/css?family=Rambla:400,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('Front/css/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('Front/css/et-lineicons.css')}}">
+    <link rel="stylesheet" href="{{asset('Front/css/themify-icons.css')}}">
+    <link rel="stylesheet" href="{{asset('Front/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('Front/css/style.css')}}">
+    <script src="{{asset('Front/js/respond.min.js')}}"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144098545-1"></script>
+</head>
+<body>
+<div id="lonon-page"> <a href="#" class="js-lonon-nav-toggle lonon-nav-toggle"><i></i></a>
+    <!-- Sidebar Section -->
+    <aside id="lonon-aside">
+        <!-- Logo -->
+        <h1 id="lonon-logo">
+            <img src="{{asset('Front/images/profile.jpg')}}" alt=""><br />
+            <a href="{{ path('HomePage') }}">Khouloud Meherzi<span>Web Developer</span></a>
+        </h1>
+        <!-- Menu -->
+        <nav id="lonon-main-menu">
+            <ul>
+                <li><a href="{{ path('HomePage') }}">Home</a></li>
+                <li><a href="{{ path('ResumePage') }}">Resume</a></li>
+                <li><a href="{{ path('projectsList') }}">Portfolio</a></li>
+                <li><a href="{{ path('ServicesPage') }}">Services</a></li>
+                <li><a href="{{ path('blogsList') }}">Blog</a></li>
+                <li class="lonon-active"><a href="{{ path('contactPage') }}">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Sidebar Footer -->
+        <div class="lonon-footer">
+            <ul>
+                <li><a href="#"><i class="ti-facebook font-14px gray-icon"></i></a></li>
+                <li><a href="#"><i class="ti-twitter-alt font-14px gray-icon"></i></a></li>
+                <li><a href="#"><i class="ti-instagram font-14px gray-icon"></i></a></li>
+                <li><a href="#"><i class="ti-linkedin font-14px gray-icon"></i></a></li>
+            </ul>
+            <p><small>&copy; 2019 Lonon. by <a href="#">DuruThemes</a></small></p>
+        </div>
+    </aside>
+    <!-- Main Section -->
+    <div id="lonon-main">
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+        <!-- Footer -->
+        <div id="lonon-footer2">
+            <div class="lonon-narrow-content">
+                <div class="row">
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                        <p class="lonon-lead">&copy; 2021 All rights reserved</p>
+                    </div>
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                        <h2 class="text-center">Khouloud Meherzi</h2> </div>
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                        <ul class="social-network">
+                            <li><a href="#"><i class="ti-facebook font-14px black-icon"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter-alt font-14px black-icon"></i></a></li>
+                            <li><a href="#"><i class="ti-instagram font-14px black-icon"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin font-14px black-icon"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe2q1gFSd75jKUnTDPq0nZWaMlEu6vL30"></script>
+<script src="{{asset('Front/js/googlemap.js')}}"></script>
+<script src="{{asset('Front/js/jquery.min.js')}}"></script>
+<script src="{{asset('Front/js/modernizr-2.6.2.min.js')}}"></script>
+<script src="{{asset('Front/js/jquery.easing.1.3.js')}}"></script>
+<script src="{{asset('Front/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('Front/js/jquery.waypoints.min.js')}}"></script>
+<script src="{{asset('Front/js/sticky-kit.min.js')}}"></script>
+<script src="{{asset('Front/js/main.js')}}"></script>
+</body>
 </html>
