@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="064fd412-e91c-428e-8ad0-0572db0e575a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/blog/blogsList.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/showBlog.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/contact/contactPage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/default/homePage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/default/resumePage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/default/servicesPage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/project/projectsList.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/project/showProject.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/category/addCategory.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/category/listCategories.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/post/addPost.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/post/postsList.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/project/addProject.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProjectController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/blogsList.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/blogsList.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/showBlog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/showBlog.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact/contactPage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact/contactPage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default/resumePage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/resumePage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default/servicesPage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/servicesPage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/project/projectsList.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/project/projectsList.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/project/showProject.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/project/showProject.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -149,10 +155,33 @@
       <option name="presentableId" value="Default" />
       <updated>1609624136225</updated>
       <workItem from="1609624137397" duration="5415000" />
+      <workItem from="1609707556363" duration="3263000" />
+      <workItem from="1609869197921" duration="5068000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609873426261">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609873426261" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1609707704181">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609707704181" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/project/projectsList.html.twig</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
